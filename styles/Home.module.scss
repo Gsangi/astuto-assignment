@@ -1,0 +1,24 @@
+.query-input {
+  height: 64px;
+  border: 1px solid grey;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  padding-left: 28px;
+}
+
+.response-labels {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  cursor: pointer;
+  margin-bottom: 40px;
+  gap: 24px;
+  label {
+    border: 1px solid gray;
+    align-content: center;
+    padding: 12px 24px;
+    border-radius: 12px;
+    width: 370px;
+  }
+}
